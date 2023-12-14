@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class StoreProgram {
+    public static void main(String[] args) {
+        int price;
+        String productName;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter product name: ");
+        productName = scanner.nextLine();
+        
+        System.out.print("Enter product price: ");
+        price = scanner.nextInt();
+        
+        System.out.println("Product Name: " + productName);
+        System.out.println("Price: " + price);
+        
+        scanner.close();
+    }
+}

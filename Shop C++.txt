@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    int price;
+    std::string productName;
+
+    std::cout << "Enter product name: ";
+    std::cin >> productName;
+
+    std::cout << "Enter product price: ";
+    std::cin >> price;
+
+    std::cout << "Product Name: " << productName << std::endl;
+    std::cout << "Price: " << price << std::endl;
+
+    return 0;
+}

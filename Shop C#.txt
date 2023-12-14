@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int price;
+        string productName;
+
+        Console.Write("Enter product name: ");
+        productName = Console.ReadLine();
+
+        Console.Write("Enter product price: ");
+        price = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Product Name: " + productName);
+        Console.WriteLine("Price: " + price);
+
+        Console.ReadLine();
+    }
+}
